@@ -6,7 +6,7 @@ import pymysql
 import yaml
 
 app = Flask(__name__)
-app.secret_key = 'kushop007'
+app.secret_key = ''
 
 # Configure db
 db = yaml.safe_load(open('db.yaml'))
